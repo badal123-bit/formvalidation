@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Personal Form</h2>
+    <p> Please Enter Correct Details</p>
+    
+     <form id="formDetails" name="fullform" method="post">
+        <div class="formdesign">
+            <label for="name"> Name :</label>
+            <input id="name" type="text" name="name" size="50" placeholder="Name"> <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign">
+            <label for="dob">Date of Birth : </label>
+            <input id="dob" type="date" name="dob" placeholder="DD/MM/YYYY"><b><span class="formerror"></span></b>
+         </div>
+
+         <div class="formdesign">
+            <label for="address">Address:</label>
+            <input id="address" type="area" name="address" size="100"  placeholder="EX - AT- ,PO- ,PS- ,DISTRICT- ,STATE- "><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" >
+            <label for="pincode"> Pincode No.</label>
+            <input id= "pincode" type="text" name="pincode" size="6" placeholder="800001"/><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" >
+            <label for="country">Country:</label>
+            <select name="country">
+                <option selected="" value="Default">(Please select a country)</option>
+                <option value="AF">Australia</option>
+                <option value="AL">Canada</option>
+                <option value="DZ">India</option>
+                <option value="AS">Russia</option>
+                <option value="AD">USA</option>
+            </select><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" >
+            <label for="aadhaar"> Aadhaar No.</label>
+            <input id="aadhaar" type="text" name="aadhaar" size="12" placeholder="1234-5678-9000"><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" >
+            <label for="pan"> PAN </label>
+            <input id="pan" type="text" name="pan" size="10" placeholder="ABCDE1234Z"><b><span class="formerror"></span></b>
+        </div>
+        
+        <div class="formdesign" >
+            <label for="email"> Email </label>
+            <input id="email" type="text" name="email" size="50" placeholder="demo@null.org"><b><span class="formerror"></span></b>
+        </div>    
+
+        
+            <input type="submit" id='submit-btn' class="btn" type="submit"> </button>
+       
+
+    </form>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
